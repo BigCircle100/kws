@@ -1,0 +1,5 @@
+models:
+  - name: nihaosuanneng
+    bmodel_path: ./models/BM1688/nihaosuanneng_fp16.bmodel
+    dev_id: 0
+    threshold: 0.5

@@ -186,7 +186,7 @@ async def model_inference(websocket: WebSocket):
                                 infer_result = json.dumps({"result": key, "prob_avg": sum(value)/len(value), "prob_max": max(value)})
                                 logger.info(f"successfully classified: [result: {key}, prob_avg: {sum(value)/len(value)}, prob_max: {max(value)}]")
                                 await websocket.send_text(infer_result)
-                                return 
+                                break
             
     except Exception as e:
         logger.error(f"{Logger.file_lineno()} {str(e)}",exc_info=True)

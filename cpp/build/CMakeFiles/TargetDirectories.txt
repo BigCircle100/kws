@@ -1,3 +1,0 @@
-/data/cx/soundclassification/cpp/build/CMakeFiles/rebuild_cache.dir
-/data/cx/soundclassification/cpp/build/CMakeFiles/edit_cache.dir
-/data/cx/soundclassification/cpp/build/CMakeFiles/sound_classification.dir
